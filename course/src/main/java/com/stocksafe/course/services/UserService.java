@@ -24,15 +24,28 @@ public class UserService {
 		return obj.get();
 
 	}
-	
+
 	public Usuario insert(Usuario obj) {
-		
-	return	userRepository.save(obj);
+
+		return userRepository.save(obj);
+	}
+
+	public void delete(Long id) {
+
+		userRepository.deleteById(id);
 	}
 	
-	public  void delete(Long id) {
+	public Usuario update(Long id,Usuario obj) {
+		Usuario entity = userRepository.getReferenceById(id);
+		updateData(entity,obj);
+		return userRepository.save(entity);
+	}
+
+	private void updateData(Usuario entity, Usuario obj) {
+		entity.setNome(obj.getNome());
+		entity.setSenha(obj.getSenha());
+		entity.setNivelAcesso(obj.getNivelAcesso());
 		
-	     userRepository.deleteById(id);
-		}
+	}
 
 }
