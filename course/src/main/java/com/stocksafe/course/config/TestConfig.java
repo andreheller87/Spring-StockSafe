@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Profile;
 
 import com.stocksafe.course.entities.Produto;
 import com.stocksafe.course.entities.Usuario;
+import com.stocksafe.course.entities.enuns.UserNivel;
 import com.stocksafe.course.repositories.ProdutoRepository;
 import com.stocksafe.course.repositories.UserRepository;
 
@@ -24,8 +25,8 @@ public class TestConfig implements CommandLineRunner {
 	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 	@Override
 	public void run(String... args) throws Exception {
-		Usuario u1 = new Usuario(null, "Maria Brown", "123456", 1);
-		Usuario u2 = new Usuario(null, "Alex Green", "123456", 1);
+		Usuario u1 = new Usuario(null, "André Heller", "123456",UserNivel.CEO );
+		Usuario u2 = new Usuario(null, "Scarpa", "123456",UserNivel.GERENTE);
 
 		userRepository.saveAll(Arrays.asList(u1, u2));
 

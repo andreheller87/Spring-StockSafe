@@ -3,6 +3,8 @@ package com.stocksafe.course.entities;
 import java.io.Serializable;
 import java.util.Objects;
 
+import com.stocksafe.course.entities.enuns.UserNivel;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,18 +21,18 @@ public class Usuario implements Serializable{
 	private Long id;
 	private String nome;
 	private String senha;
-	private int nivelAcesso;
+	private Integer nivelAcesso;
 	
 	public Usuario() {
 		
 	}
 
-	public Usuario(Long id, String nome, String senha, int nivelAcesso) {
+	public Usuario(Long id, String nome, String senha, UserNivel nivelAcesso) {
 		super();
 		this.id = id;
 		this.nome = nome;
 		this.senha = senha;
-		this.nivelAcesso = nivelAcesso;
+		setNivelAcesso(nivelAcesso);
 	}
 
 	public Long getId() {
@@ -57,12 +59,14 @@ public class Usuario implements Serializable{
 		this.senha = senha;
 	}
 
-	public int getNivelAcesso() {
-		return nivelAcesso;
+	public UserNivel getNivelAcesso() {
+		return UserNivel.valueOf(nivelAcesso);
 	}
 
-	public void setNivelAcesso(int nivelAcesso) {
-		this.nivelAcesso = nivelAcesso;
+	public void setNivelAcesso(UserNivel nivelAcesso) {
+		if(nivelAcesso != null) {
+		this.nivelAcesso = nivelAcesso.getNivel();
+		}
 	}
 
 	@Override
