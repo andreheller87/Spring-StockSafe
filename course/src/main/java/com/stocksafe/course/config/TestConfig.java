@@ -15,7 +15,7 @@ import com.stocksafe.course.repositories.ProdutoRepository;
 import com.stocksafe.course.repositories.UserRepository;
 
 @Configuration
-@Profile("test")
+@Profile("dev")
 public class TestConfig implements CommandLineRunner {
 
 	@Autowired
