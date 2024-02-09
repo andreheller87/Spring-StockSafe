@@ -1,19 +1,27 @@
 package com.stocksafe.course.resource;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.stocksafe.course.entities.Usuario;
+import com.stocksafe.course.services.UserService;
 
 @RestController
 @RequestMapping(value= "/users")
 public class UserResource {
 	
+	@Autowired
+	private UserService userService;
+	
 	    @GetMapping
-		public ResponseEntity<Usuario> findAll(){
-			Usuario use = new Usuario(1L,"André","123456",1);
+		public ResponseEntity<List<Usuario>> findAll(){
+		
+	    	List<Usuario> use = userService.findAll();
 		return ResponseEntity.ok().body(use);
 		}
 }
