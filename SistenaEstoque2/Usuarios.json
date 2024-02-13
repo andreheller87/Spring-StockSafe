@@ -1,0 +1,38 @@
+[
+    {
+        "senha": "123456",
+        "nome": "jonatan",
+        "nivelAcesso": 1,
+        "id": 4
+    },
+    {
+        "senha": "123456",
+        "nome": "michael",
+        "nivelAcesso": 1,
+        "id": 5
+    },
+    {
+        "senha": "123456",
+        "nome": "andre",
+        "nivelAcesso": 1,
+        "id": 1
+    },
+    {
+        "senha": "456",
+        "nome": "enzo",
+        "nivelAcesso": 1,
+        "id": 6
+    },
+    {
+        "senha": "123",
+        "nome": "Felipe",
+        "nivelAcesso": 1,
+        "id": 10
+    },
+    {
+        "senha": "123456",
+        "nome": "Gabriel",
+        "nivelAcesso": 1,
+        "id": 11
+    }
+]

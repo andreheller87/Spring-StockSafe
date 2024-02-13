@@ -1,0 +1,147 @@
+Data da Venda: 11/01/2024 11:43:48
+Produtos:
+- cuca: R$18.9
+- cafe: R$5.0
+Valor Total da Venda: R$28.89
+------------------------------
+Data da Venda: 12/01/2024 12:21:38
+Produtos:
+- cafe: R$5.0
+- Arroz 1 kg: R$5.5
+Valor Total da Venda: R$10.5
+------------------------------
+Data da Venda: 12/01/2024 12:34:06
+Produtos:
+- cuca: R$18.9
+Valor Total da Venda: R$56.69
+------------------------------
+Data da Venda: 13/01/2024 12:34:55
+Produtos:
+- Arroz 1 kg: R$5.5
+Valor Total da Venda: R$27.5
+------------------------------
+Data da Venda: 13/01/2024 12:35:56
+Produtos:
+- cafe: R$5.0
+Valor Total da Venda: R$5.0
+------------------------------
+Data da Venda: 13/01/2024 12:36:27
+Produtos:
+- cafe: R$5.0
+Valor Total da Venda: R$10.0
+------------------------------
+Data da Venda: 13/01/2024 12:41:47
+Produtos:
+- cafe: R$5.0
+- cafe: R$5.0
+Valor Total da Venda: R$10.0
+------------------------------
+Data da Venda: 13/01/2024 12:42:08
+Produtos:
+- cafe: R$5.0
+Valor Total da Venda: R$40.0
+------------------------------
+Data da Venda: 13/01/2024 14:04:55
+Produtos:
+- Sal: R$1.0
+Valor Total da Venda: R$5.0
+------------------------------
+Data da Venda: 13/01/2024 14:43:35
+Produtos:
+- Sal: R$1.0
+Valor Total da Venda: R$3,00
+------------------------------
+Data da Venda: 13/01/2024 14:44:50
+Produtos:
+Valor Total da Venda: R$0,00
+------------------------------
+Data da Venda: 13/01/2024 14:50:45
+Produtos:
+- Sal: R$1.0
+- pirulito: R$0.66
+Valor Total da Venda: R$4,30
+------------------------------
+Data da Venda: 15/01/2024 11:41:02
+Produtos:
+- Leite Fermentado bob-esponja 6un80g: R$5.99
+Valor Total da Venda: R$17,97
+------------------------------
+Data da Venda: 16/01/2024 11:34:12
+Produtos:
+- Biscoito Recheado Negresco 150g: R$9.75
+- cafe: R$5.0
+- Queijo Mussarela Fazenda Feliz 1kg: R$30.0
+Valor Total da Venda: R$184,25
+------------------------------
+Data da Venda: 23/01/2024 19:30:27
+Produtos:
+- Creme Dental Colgate Total 12 150ml: R$7.99
+- feijao: R$5.0
+Valor Total da Venda: R$12,99
+------------------------------
+Data da Venda: 23/01/2024 19:46:26
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+- Salsicha Frankfurt Sadia 500g: R$8.99
+Valor Total da Venda: R$20,97
+------------------------------
+Data da Venda: 01/02/2024 07:20:46
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$21,49
+------------------------------
+Data da Venda: 01/02/2024 07:30:45
+Produtos:
+- Biscoito Recheado Negresco 150g: R$9.75
+- Queijo Mussarela Fazenda Feliz 1kg: R$30.0
+Valor Total da Venda: R$39,75
+------------------------------
+Data da Venda: 01/02/2024 07:31:12
+Produtos:
+- Salsicha Frankfurt Sadia 500g: R$8.99
+- Iogurte Natural Nestlé 400g: R$6.49
+Valor Total da Venda: R$15,48
+------------------------------
+Data da Venda: 01/02/2024 14:20:46
+Produtos:
+- Iogurte Natural Nestlé 400g: R$6.49
+Valor Total da Venda: R$6,49
+------------------------------
+Data da Venda: 01/02/2024 14:41:58
+Produtos:
+- Açúcar Refinado União 2kg: R$14.99
+- Chá de Camomila Twinings 20 sachês: R$7.25
+Valor Total da Venda: R$36,74
+------------------------------
+Data da Venda: 01/02/2024 14:53:03
+Produtos:
+- Salsicha Frankfurt Sadia 500g: R$8.99
+- Saquinhos para Congelamento Ziploc 1L: R$12.75
+Valor Total da Venda: R$61,46
+------------------------------
+Data da Venda: 11/02/2024 10:27:54
+Produtos:
+- Farinha de Mandioca Yoki 1kg: R$14.25
+Valor Total da Venda: R$14,25
+------------------------------
+Data da Venda: 11/02/2024 10:28:07
+Produtos:
+- Farinha de Mandioca Yoki 1kg: R$14.25
+Valor Total da Venda: R$14,25
+------------------------------
+Data da Venda: 13/02/2024 11:43:09
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$23,96
+------------------------------
+Data da Venda: 13/02/2024 11:51:07
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 11:53:55
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------

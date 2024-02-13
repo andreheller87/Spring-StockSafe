@@ -1,0 +1,156 @@
+[
+    {
+        "preco": 5.99,
+        "Observacao": "conjunto com 6x80g",
+        "dataValidade": "20/05/2024",
+        "armazenamento": "F101",
+        "lote": 1001,
+        "dataFabricacao": "05/10/2023",
+        "nome": "Leite Fermentado Bob-Esponja 6un80g",
+        "id": 151565589,
+        "quantidadeEmEstoque": 24
+    },
+    {
+        "preco": 15.5,
+        "Observacao": "embalagem de 500g",
+        "dataValidade": "15/12/2024",
+        "armazenamento": "F102",
+        "lote": 1002,
+        "dataFabricacao": "10/08/2024",
+        "nome": "Arroz Integral Tio João 500g",
+        "id": 151578934,
+        "quantidadeEmEstoque": 14
+    },
+    {
+        "preco": 9.75,
+        "Observacao": "sabor chocolate",
+        "dataValidade": "30/11/2024",
+        "armazenamento": "F103",
+        "lote": 1003,
+        "dataFabricacao": "22/07/2024",
+        "nome": "Biscoito Recheado Negresco 150g",
+        "id": 151589762,
+        "quantidadeEmEstoque": 21
+    },
+    {
+        "preco": 30,
+        "Observacao": "fresco",
+        "dataValidade": "10/10/2024",
+        "armazenamento": "F104",
+        "lote": 1004,
+        "dataFabricacao": "03/09/2023",
+        "nome": "Queijo Mussarela Fazenda Feliz 1kg",
+        "id": 151598473,
+        "quantidadeEmEstoque": 12
+    },
+    {
+        "preco": 8.99,
+        "Observacao": "pacote com 12 unidades",
+        "dataValidade": "05/07/2024",
+        "armazenamento": "F105",
+        "lote": 1005,
+        "dataFabricacao": "18/12/2023",
+        "nome": "Salsicha Frankfurt Sadia 500g",
+        "id": 151607821,
+        "quantidadeEmEstoque": 16
+    },
+    {
+        "preco": 12.75,
+        "Observacao": "caixa com 100 saquinhos",
+        "dataValidade": "28/09/2024",
+        "armazenamento": "F106",
+        "lote": 1006,
+        "dataFabricacao": "15/03/2024",
+        "nome": "Saquinhos para Congelamento Ziploc 1L",
+        "id": 151615934,
+        "quantidadeEmEstoque": 38
+    },
+    {
+        "preco": 18.5,
+        "Observacao": "pote com 500g",
+        "dataValidade": "15/11/2024",
+        "armazenamento": "F107",
+        "lote": 1007,
+        "dataFabricacao": "02/06/2024",
+        "nome": "Mel Puro de Abelha Apis 500g",
+        "id": 151624789,
+        "quantidadeEmEstoque": 12
+    },
+    {
+        "preco": 6.49,
+        "Observacao": "sabor original",
+        "dataValidade": "18/10/2024",
+        "armazenamento": "F108",
+        "lote": 1008,
+        "dataFabricacao": "09/08/2024",
+        "nome": "Iogurte Natural Nestlé 400g",
+        "id": 151635478,
+        "quantidadeEmEstoque": 26
+    },
+    {
+        "preco": 22,
+        "Observacao": "caixa com 20 unidades",
+        "dataValidade": "22/12/2024",
+        "armazenamento": "F109",
+        "lote": 1009,
+        "dataFabricacao": "14/04/2024",
+        "nome": "Cerveja Artesanal IPA 355ml",
+        "id": 151646235,
+        "quantidadeEmEstoque": 15
+    },
+    {
+        "preco": 14.99,
+        "Observacao": "embalagem econômica 2kg",
+        "dataValidade": "25/08/2024",
+        "armazenamento": "F110",
+        "lote": 1010,
+        "dataFabricacao": "10/01/2024",
+        "nome": "Açúcar Refinado União 2kg",
+        "id": 151654782,
+        "quantidadeEmEstoque": 19
+    },
+    {
+        "preco": 7.25,
+        "Observacao": "caixa com 20 sachês",
+        "dataValidade": "08/09/2024",
+        "armazenamento": "F111",
+        "lote": 1011,
+        "dataFabricacao": "30/05/2024",
+        "nome": "Chá de Camomila Twinings 20 sachês",
+        "id": 151664529,
+        "quantidadeEmEstoque": 32
+    },
+    {
+        "preco": 11.99,
+        "Observacao": "sabor morango",
+        "dataValidade": "15/07/2024",
+        "armazenamento": "F113",
+        "lote": 1013,
+        "dataFabricacao": "05/12/2023",
+        "nome": "Iogurte Grego Danone 200g",
+        "id": 151684543,
+        "quantidadeEmEstoque": 25
+    },
+    {
+        "preco": 29.75,
+        "Observacao": "caixa com 12 unidades",
+        "dataValidade": "20/09/2024",
+        "armazenamento": "F114",
+        "lote": 1014,
+        "dataFabricacao": "28/03/2024",
+        "nome": "Vinho Tinto Reserva Concha y Toro 750ml",
+        "id": 151694321,
+        "quantidadeEmEstoque": 10
+    },
+    {
+        "preco": 18,
+        "Observacao": "nenhuma",
+        "dataValidade": "10/05/2024",
+        "armazenamento": "F100",
+        "lote": 1016,
+        "dataFabricacao": "10/05/2000",
+        "nome": "Cafe",
+        "id": 15888955,
+        "quantidadeEmEstoque": 15
+    }
+]
