@@ -41,6 +41,7 @@ public class ProdutoDAO {
 	 */
 	public boolean update(Produto produto) {
 		try {
+			
 			BancoProdutoJSON.updateProduto(produto);
 			return true;
 		} catch (IOException e) {

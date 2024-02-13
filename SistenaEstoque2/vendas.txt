@@ -145,3 +145,98 @@ Produtos:
 - Leite Fermentado Bob-Esponja 6un80g: R$5.99
 Valor Total da Venda: R$5,99
 ------------------------------
+Data da Venda: 13/02/2024 14:24:32
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 14:33:15
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$17,97
+------------------------------
+Data da Venda: 13/02/2024 14:34:20
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 14:34:29
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 14:34:47
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$137,77
+------------------------------
+Data da Venda: 13/02/2024 14:37:57
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 14:38:45
+Produtos:
+- Leite Fermentado Bob-Esponja 6un80g: R$5.99
+Valor Total da Venda: R$5,99
+------------------------------
+Data da Venda: 13/02/2024 14:42:32
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 14:42:43
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 14:43:55
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$77,50
+------------------------------
+Data da Venda: 13/02/2024 14:48:24
+Produtos:
+- leite: R$42.0
+Valor Total da Venda: R$42,00
+------------------------------
+Data da Venda: 13/02/2024 14:48:36
+Produtos:
+- leite: R$42.0
+Valor Total da Venda: R$42,00
+------------------------------
+Data da Venda: 13/02/2024 14:59:31
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 15:06:00
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 15:07:07
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 15:12:37
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 15:16:33
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
+Data da Venda: 13/02/2024 15:20:56
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$31,00
+------------------------------
+Data da Venda: 13/02/2024 15:26:00
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------

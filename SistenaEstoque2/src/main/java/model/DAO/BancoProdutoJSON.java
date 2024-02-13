@@ -108,36 +108,65 @@ public class BancoProdutoJSON {
 	}
 
 	public static void deleteProduto(Produto produto) throws IOException {
-		String deleteUrl = BASE_URL + "/" + produto.getId();
-		URL url = new URL(deleteUrl);
-		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-		connection.setRequestMethod("DELETE");
+	    try {
+	        String deleteUrl = BASE_URL + "/" + produto.getId();
+	        URL url = new URL(deleteUrl);
+	        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+	        connection.setRequestMethod("DELETE");
 
+	        int responseCode = connection.getResponseCode();
+	        if (responseCode == HttpURLConnection.HTTP_NO_CONTENT) {
+	            System.out.println("Produto excluído com sucesso.");
+	        } else {
+	            System.out.println("Erro ao excluir o produto. Código de resposta: " + responseCode);
+	        }
+
+	        connection.disconnect(); 
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 	}
 
+
 	public static void updateProduto(Produto produto) throws IOException {
-		String updateUrl = BASE_URL + "/" + produto.getId();
-		URL url = new URL(updateUrl);
-		HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-		connection.setRequestMethod("PUT");
-		connection.setDoOutput(true);
-		connection.setRequestProperty("Content-Type", "application/json");
+	    try {
+	        String updateUrl = BASE_URL + "/" + produto.getId();
+	        URL url = new URL(updateUrl);
+	        HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+	        connection.setRequestMethod("PUT");
+	        connection.setDoOutput(true);
+	        connection.setRequestProperty("Content-Type", "application/json");
 
-		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
-		String validadeFormatted = dateFormat.format(produto.getValidade());
-		String dataFormatted = dateFormat.format(produto.getData());
+	        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSXXX");
+	        String validadeFormatted = dateFormat.format(produto.getValidade());
+	        String dataFormatted = dateFormat.format(produto.getData());
 
-		String json = "{" + "\"nome\": \"" + produto.getNome() + "\"," + "\"valor\": " + produto.getValor() + ","
-				+ "\"validade\": \"" + validadeFormatted + "\"," + "\"quantidade\": " + produto.getQuantidade() + ","
-				+ "\"observacao\": \"" + produto.getObservacao() + "\"," + "\"armazenamento\": \""
-				+ produto.getArmazenamento() + "\"," + "\"data\": \"" + dataFormatted + "\"," + "\"codLote\": "
-				+ produto.getCodLote() + "}";
+	        String json = "{" + "\"nome\": \"" + produto.getNome() + "\","
+	                + "\"valor\": " + produto.getValor() + ","
+	                + "\"validade\": \"" + validadeFormatted + "\","
+	                + "\"quantidade\": " + produto.getQuantidade() + ","
+	                + "\"observacao\": \"" + produto.getObservacao() + "\","
+	                + "\"armazenamento\": \"" + produto.getArmazenamento() + "\","
+	                + "\"data\": \"" + dataFormatted + "\","
+	                + "\"codLote\": " + produto.getCodLote()
+	                + "}";
 
-		try (OutputStream os = connection.getOutputStream();
-				OutputStreamWriter osw = new OutputStreamWriter(os, StandardCharsets.UTF_8)) {
-			osw.write(json);
-			osw.flush();
-		}
+	        try (OutputStream os = connection.getOutputStream();
+	             OutputStreamWriter osw = new OutputStreamWriter(os, StandardCharsets.UTF_8)) {
+	            osw.write(json);
+	            osw.flush(); // Enviar os dados JSON
+	        }
 
+	        int responseCode = connection.getResponseCode();
+	        if (responseCode == HttpURLConnection.HTTP_OK) {
+	            System.out.println("Produto atualizado com sucesso.");
+	        } else {
+	            System.out.println("Erro ao atualizar o produto. Código de resposta: " + responseCode);
+	        }
+
+	        connection.disconnect();
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 	}
 }

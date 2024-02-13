@@ -183,7 +183,7 @@ public class TelaVenda extends JFrame {
 				}
 				produtos.clear();
 				controller.limparTabela();
-				valor=0;
+				valor = 0;
 			}
 		});
 		contentPane.add(btnConcluirVenda);
