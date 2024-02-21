@@ -10,6 +10,8 @@ import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.net.URISyntaxException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -28,6 +30,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 
 import controller.CadastroProdutoController;
+import model.Produto;
 
 public class CadastroProduto extends JFrame {
 
@@ -84,7 +87,7 @@ public class CadastroProduto extends JFrame {
 		tableProdutos = new JTable();
 		tableProdutos.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		tableProdutos.setModel(new DefaultTableModel(new Object[][] {},
-				new String[] { "Cod Barras", "Cod Lote", "Produto", "Valor Un", "Quantidade", "Valor Total",
+				new String[] { "Cod ID", "Cod Lote", "Produto", "Valor Un", "Quantidade", "Valor Total",
 						"Fabrica\u00E7\u00E3o", "Validade", "Validade (dias)", "Armazenado", "Observa\u00E7\u00E3o" }) {
 			Class[] columnTypes = new Class[] { Integer.class, Object.class, String.class, Float.class, Integer.class,
 					Object.class, Integer.class, Integer.class, Object.class, Object.class, Object.class };
@@ -112,17 +115,29 @@ public class CadastroProduto extends JFrame {
 		lblNewLabel.setBounds(10, 87, 195, 35);
 		contentPane.add(lblNewLabel);
 
-		JLabel lblId = new JLabel("Cod Barras:");
+		JLabel lblId = new JLabel("Cod Lote:");
 		lblId.setForeground(new Color(0, 0, 0));
 		lblId.setFont(new Font("Tahoma", Font.PLAIN, 18));
 		lblId.setBounds(10, 55, 102, 35);
 		contentPane.add(lblId);
-
+		
+		
+		
 		textID = new JTextField();
+		textID.setColumns(10);
 		textID.setBounds(110, 62, 121, 26);
 		contentPane.add(textID);
-		textID.setColumns(10);
-
+		textID.setEditable(false);
+		    try {
+				this.setTextID(Produto.proximoCodLote().toString());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (URISyntaxException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
 		textDataFabricacao = new JTextField();
 		textDataFabricacao.setColumns(10);
 		textDataFabricacao.setBounds(110, 94, 121, 26);
@@ -199,10 +214,15 @@ public class CadastroProduto extends JFrame {
 		btnCadProduto.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
-					contoller.cadastrar();
-					limparTela();
-					JOptionPane.showMessageDialog(btnCadProduto, "Produto cadastrado co sucesso!");
-
+				    try {
+						contoller.cadastrar();
+					} catch (IllegalArgumentException | ParseException | IOException | URISyntaxException e1) {
+						
+						e1.printStackTrace();
+					}
+				    limparTela();
+				    JOptionPane.showMessageDialog(btnCadProduto, "Produto cadastrado com sucesso!");
+				
 				
 			}
 		});
@@ -259,7 +279,15 @@ public class CadastroProduto extends JFrame {
 	}
 
 	protected void limparTela() {
-		textID.setText("");
+		 try {
+				this.setTextID(Produto.proximoCodLote().toString());
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (URISyntaxException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		textArmazenado.setText("");
 		textDataFabricacao.setText("");
 		textNome.setText("");
@@ -285,6 +313,9 @@ public class CadastroProduto extends JFrame {
 
 	public JTextField getTextID() {
 		return textID;
+	}
+	public void setTextID(String text) {
+	    this.textID.setText(text);
 	}
 
 	public void setTextID(JTextField textID) {

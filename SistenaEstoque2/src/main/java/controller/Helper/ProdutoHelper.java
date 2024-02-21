@@ -103,11 +103,11 @@ public class ProdutoHelper {
 		}
 	}
 
-	public Produto obterModelo() {
+	public Produto obterModelo() throws ParseException, IOException, URISyntaxException {
 	    Long codBarra = Long.parseLong(view.getTextID().getText());
-	    String Data = view.getTextDataFabricacao().getText();
+	    Date Data =dateFormat.parse(view.getTextDataFabricacao().getText()) ;
 	    Float valor = Float.valueOf(view.getTextValorProduto().getText());
-	    String validade = view.getTextValidade().getText();
+	    Date validade = dateFormat.parse(view.getTextValidade().getText());
 	    String nome = view.getTextNome().getText();
 	    String arm = view.getTextArmazenado().getText();
 	    int quant = Integer.parseInt(view.getTextQuantidade().getText());
@@ -120,21 +120,10 @@ public class ProdutoHelper {
 	    produto.setQuantidade(quant);
 	    produto.setArmazenamento(arm);
 	    produto.setObservacao(Obs);
-	    
-	    
-	        Date dataDate = new Date();
-	        Date validadeParsed =  new Date();
-	        produto.setValidade(validadeParsed);
-	        produto.setData(dataDate);
-	        try {
-				produto.setCodLote(Produto.proximoCodLote());
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (URISyntaxException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+	    produto.setValidade(validade);
+	    produto.setData(Data);
+	    produto.setCodLote(Produto.proximoCodLote());
+			
 	        return produto;
 	    
 	}

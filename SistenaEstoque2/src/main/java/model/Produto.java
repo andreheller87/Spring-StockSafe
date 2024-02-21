@@ -88,7 +88,11 @@ public class Produto {
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+	    if (nome != null) {
+	        this.nome = nome;
+	    } else {
+	        throw new IllegalArgumentException("Nome não pode estar nulo");
+	    }
 	}
 
 	public Float getValor() {

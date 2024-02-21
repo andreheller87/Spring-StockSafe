@@ -1,5 +1,8 @@
 package controller;
 
+import java.io.IOException;
+import java.net.URISyntaxException;
+import java.text.ParseException;
 /**
  * 
  * 
@@ -30,11 +33,15 @@ public class CadastroProdutoController {
 		helper.preencherTabela(produtos);
 	}
 
-	public void cadastrar() {
-		Produto produto = helper.obterModelo();
+	public void cadastrar() throws ParseException, IOException, URISyntaxException {
+		Produto produto;
+		
+			produto = helper.obterModelo();
+			new ProdutoDAO().insert(produto);
+			atualizaTabela();
+		
 
-		new ProdutoDAO().insert(produto);
-		atualizaTabela();
+		
 
 	}
 

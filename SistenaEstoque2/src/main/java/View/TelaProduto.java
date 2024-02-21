@@ -76,7 +76,7 @@ public class TelaProduto extends JFrame {
 		tableProdutos.setFont(new Font("Times New Roman", Font.PLAIN, 15));
 		tableProdutos.setModel(new DefaultTableModel(
 				new Object[][] { { null, null, null, null, null, null, null, null, null, null, null }, },
-				new String[] { "Cod Barras", "Cod Lote", "Produto", "Valor Un", "Quantidade", "Valor Total",
+				new String[] { "Cod ID", "Cod Lote", "Produto", "Valor Un", "Quantidade", "Valor Total",
 						"Fabrica\u00E7\u00E3o", "Validade", "Validade (dias)", "Armazenado", "Observa\u00E7\u00E3o" }) {
 			Class[] columnTypes = new Class[] { Integer.class, Object.class, String.class, Float.class, Integer.class,
 					Object.class, Integer.class, Integer.class, Object.class, Object.class, Object.class };

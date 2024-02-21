@@ -240,3 +240,8 @@ Produtos:
 - Arroz Integral Tio João 500g: R$15.5
 Valor Total da Venda: R$15,50
 ------------------------------
+Data da Venda: 14/02/2024 10:36:58
+Produtos:
+- Arroz Integral Tio João 500g: R$15.5
+Valor Total da Venda: R$15,50
+------------------------------
