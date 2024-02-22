@@ -138,7 +138,7 @@ public class TelaVendaControle {
 		Produto p = null;
 		try {
 			for (Produto produto2 : produtos) {
-				if (produto2.getCodLote() == Integer.parseInt(codigoProduto)) {
+				if (produto2.getCodLote() == Long.parseLong(codigoProduto)) {
 					p = produto2;
 				}
 			}

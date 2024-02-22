@@ -122,7 +122,7 @@ public class ProdutoHelper {
 	    produto.setObservacao(Obs);
 	    produto.setValidade(validade);
 	    produto.setData(Data);
-	    produto.setCodLote(Produto.proximoCodLote());
+	    produto.setCodLote(codBarra);
 			
 	        return produto;
 	    

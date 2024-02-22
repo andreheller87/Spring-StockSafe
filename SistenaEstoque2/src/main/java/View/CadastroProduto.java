@@ -127,16 +127,8 @@ public class CadastroProduto extends JFrame {
 		textID.setColumns(10);
 		textID.setBounds(110, 62, 121, 26);
 		contentPane.add(textID);
-		textID.setEditable(false);
-		    try {
-				this.setTextID(Produto.proximoCodLote().toString());
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (URISyntaxException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+		
+		   
 		
 		textDataFabricacao = new JTextField();
 		textDataFabricacao.setColumns(10);

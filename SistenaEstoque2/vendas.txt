@@ -245,3 +245,8 @@ Produtos:
 - Arroz Integral Tio João 500g: R$15.5
 Valor Total da Venda: R$15,50
 ------------------------------
+Data da Venda: 22/02/2024 13:53:11
+Produtos:
+- Molho de Tomate Stella dóro: R$1.9
+Valor Total da Venda: R$1,90
+------------------------------
