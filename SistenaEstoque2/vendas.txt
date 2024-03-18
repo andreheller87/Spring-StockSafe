@@ -250,3 +250,101 @@ Produtos:
 - Molho de Tomate Stella dóro: R$1.9
 Valor Total da Venda: R$1,90
 ------------------------------
+Data da Venda: 29/02/2024 09:50:07
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$1,45
+------------------------------
+Data da Venda: 29/02/2024 09:52:15
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 10:14:36
+Produtos:
+- Água sem gás : R$0.8
+- Água com Gás : R$0.7
+- Coca-Cola : R$1.45
+- Ovinhos de Amendoim 170g: R$4.5
+Valor Total da Venda: R$8,15
+------------------------------
+Data da Venda: 29/02/2024 10:26:12
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 10:29:38
+Produtos:
+Valor Total da Venda: R$0,00
+------------------------------
+Data da Venda: 29/02/2024 10:30:28
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$1,45
+------------------------------
+Data da Venda: 29/02/2024 10:34:43
+Produtos:
+- Água sem gás : R$0.8
+Valor Total da Venda: R$0,80
+------------------------------
+Data da Venda: 29/02/2024 10:50:00
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 10:54:34
+Produtos:
+- Garrafa Guaraná Antártica : R$1.35
+Valor Total da Venda: R$1,35
+------------------------------
+Data da Venda: 29/02/2024 11:01:01
+Produtos:
+- Garrafa Guaraná Antártica : R$1.35
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$2,80
+------------------------------
+Data da Venda: 29/02/2024 11:04:48
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$2,90
+------------------------------
+Data da Venda: 29/02/2024 11:30:01
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$1,45
+------------------------------
+Data da Venda: 29/02/2024 11:36:48
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$2,90
+------------------------------
+Data da Venda: 29/02/2024 11:37:19
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 11:45:59
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 11:47:08
+Produtos:
+- Garrafa Guaraná Antártica : R$1.35
+Valor Total da Venda: R$1,35
+------------------------------
+Data da Venda: 29/02/2024 11:47:42
+Produtos:
+- Água com Gás : R$0.7
+Valor Total da Venda: R$0,70
+------------------------------
+Data da Venda: 29/02/2024 11:48:28
+Produtos:
+- Coca-Cola : R$1.45
+Valor Total da Venda: R$2,90
+------------------------------
+Data da Venda: 29/02/2024 11:55:24
+Produtos:
+- Garrafa Guaraná Antártica : R$1.35
+Valor Total da Venda: R$1,35
+------------------------------

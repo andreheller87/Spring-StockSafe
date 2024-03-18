@@ -69,7 +69,7 @@ public class TelaProdutoControle {
 					if (formattedValidade.equals(searchTerm) || formattedFabricacao.equals(searchTerm)) {
 						searchResults.add(produto);
 					}
-					int searchTermAsInt = Integer.parseInt(searchTerm);
+					long searchTermAsInt = Long.parseLong(searchTerm);
 
 					if (produto.diferencaEmDiasInt() <= searchTermAsInt) {
 						searchResults.add(produto);
